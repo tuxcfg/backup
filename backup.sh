@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://github.com/tuxcfg/backup
+
 # exit immediately if a command exits with a non-zero status
 set -e
 
