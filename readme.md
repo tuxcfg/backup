@@ -40,7 +40,7 @@ backup
 The `.head` directory contains the latest copy of `books`.
 The `data` directory contains `2019.04.28` as hard links to `.head` directory and does not occupy additional space.
 
-To get only `books` directory content but not `books` itself use trailing slash:
+To get only `books` directory content but not `books` itself use a trailing slash:
 
 ```bash
 backup --source="books/" --target="backup"
